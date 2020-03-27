@@ -1,0 +1,55 @@
+body {
+    background:#8ec3eb;
+    align-items:center;
+    display:flex;
+    font-family:Lato;
+}
+
+.head_txt h1{
+    padding-bottom:0px!important;
+    margin-bottom:0px!important;
+}
+
+.head_txt p{
+    padding-top:0px!important;
+    margin-bottom:0px!important;
+
+}
+
+a {
+    color:#000!important;
+    text-decoration:none;
+}
+
+#project_block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.buttons {
+    justify-content: center;
+    margin:0 auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+}
+
+button{
+    
+    padding:15px 30px;
+    display: flex;
+    background:	#FF4500;
+    color:#000!important;
+    font-weight:bold;
+    border:1px solid black;
+    font-size:19px;
+    font-family:Lato;
+}
+.close{
+    margin-left:50px;
+}
